@@ -3,7 +3,7 @@
     <header class="loglive-header" v-if="site">
       <div class="container">
         <h1 class="loglive-title">
-          <a :href="url"><strong>{{ site.title }} </strong> changelog</a>
+          <a :href="url"><strong>{{ site.title }} </strong></a>
         </h1>
         <div class="loglive-website" v-if="site.website"><a :href="site.website">{{ getDomain(site.website) }}</a></div>
       </div>
